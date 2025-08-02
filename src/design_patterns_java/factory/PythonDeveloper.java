@@ -1,0 +1,10 @@
+package design_patterns_java.factory;
+
+import java.awt.event.AdjustmentEvent;
+
+public class PythonDeveloper implements Developer {
+    @Override
+    public void writeCode() {
+        System.out.println(" Write Python code ");
+    }
+}
